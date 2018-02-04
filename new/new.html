@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Employee details using CRUD operations</title>
+    
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./new.css">
+
+</head>
+
+    
+<body>
+    
+    
+        <form id="formEmp">
+           <ul>
+               <li >
+                      <label for="txtName">Name:</label>
+                      <input type="text" size="20" id="txtName"> 
+               </li>
+                <li >
+                      <label for="txtPhone">Phone:</label>
+                      <input type="tel" size="20" id="txtPhone"> 
+               </li>
+               <li>
+                      <label for="txtEmail">Email:</label>
+                      <input type="email" size="20" id="txtEmail">
+               </li>
+               <li>
+                      <label for="txtSalary">Salary:</label>
+                      <input type="text" id="txtSalary">
+               </li>
+               <li>
+                      <label for="txtDate">Dateofjoin</label>
+                      <input type="date" id="txtDate">
+                   
+               </li>
+               <li>
+                       <input type="submit" value="Save" class="btnSave btn-success">
+               </li>
+           </ul>
+            
+        </form>
+     
+         
+             <table id="empList">
+                
+             </table>
+          
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./new.js"></script>
+</body>
+</html>

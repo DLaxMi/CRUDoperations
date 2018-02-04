@@ -1,0 +1,72 @@
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('./newbg.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#formEmp {
+        width: 100%;
+    height: 100%;
+         margin: 15px;
+         color: white;
+         font-family: sans-serif;
+         font-size: 15px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+     }  
+ul {
+         list-style-type: none;
+         
+    }
+li {
+         padding: 10px;
+    }
+label {
+         margin-right: 30px;
+     }
+#txtDate {
+    margin-right: 25px!imporatnt;
+}
+#txtName {
+    margin-right: 5px;
+}
+.btn {
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border: none;
+}
+.btnSave {
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+    border: none;
+}
+.btnSave:hover {
+    background-color:orange;
+    color: white;
+    border: none;
+}
+#empList {
+         border: 2px solid black;
+        color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+table {
+border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+table,th,td {
+    border: 2px solid black;
+}
+th,td {
+    padding: 10px;
+}
